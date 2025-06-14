@@ -5,4 +5,46 @@
 html, body {
   margin: 0;
   padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+/* Base badge styles */
+.badge {
+  display: inline-block;
+  font-weight: 600;
+  border-radius: 9999px;
+  text-align: center;
+  line-height: 1;
+}
+
+/* Size variants */
+.badge-sm {
+  font-size: 0.75rem;      /* 12px */
+  padding: 0.25rem 0.5rem; /* 4px 8px */
+}
+
+.badge-md {
+  font-size: 0.875rem;     /* 14px */
+  padding: 0.375rem 0.75rem; /* 6px 12px */
+}
+
+.badge-lg {
+  font-size: 1rem;         /* 16px */
+  padding: 0.5rem 1rem;    /* 8px 16px */
+}
+
+/* Variant styles */
+.badge-default {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.badge-primary {
+  background-color: #0070f3;
+  color: #ffffff;
+}
+
+.badge-danger {
+  background-color: #e63946;
+  color: #ffffff;
 }
