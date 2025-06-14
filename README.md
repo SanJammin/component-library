@@ -1,12 +1,11 @@
-# React + Vite
+## Figma
+- Badges: https://www.figma.com/design/8z3MzQUTw2STq71aHbjYaF/Component-Library?node-id=0-1&p=f&t=Kug7wz3622os562u-0
+- Banners: https://www.figma.com/design/8z3MzQUTw2STq71aHbjYaF/Component-Library?node-id=1-38&p=f&t=6BW0uMixcNwCrztF-0
+- Cards: https://www.figma.com/design/8z3MzQUTw2STq71aHbjYaF/Component-Library?node-id=1-104&p=f&t=1CJt0R9k5N6Pn1vm-0
+- Testimonials: https://www.figma.com/design/8z3MzQUTw2STq71aHbjYaF/Component-Library?node-id=399-132&p=f&t=BI3Ej0vr9cOJV6cH-0
+- Tooltip: https://www.figma.com/design/8z3MzQUTw2STq71aHbjYaF/Component-Library?node-id=406-401&p=f&t=2KBKnwYLklQN0OAa-0
+- Toast Popup: https://www.figma.com/design/8z3MzQUTw2STq71aHbjYaF/Component-Library?node-id=406-523&p=f&t=PtRLOsYC9fXEqYZP-0
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Requirements
+- Each component should be exported from its own containing folder, following the same pattern we've been using in the component library
+- Use app.jsx as a texsting ground to display your componenets
