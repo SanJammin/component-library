@@ -1,9 +1,9 @@
 import clsx from "clsx";
 
-export default function Badge({children, variant, size}) {
+export default function Badge({children, variant = "default", size = "md"}) {
     return (
-        <div className={clsx("badge", `badge-${variant}`, `badge-${size}` )}>
+        <span className={clsx("badge", `badge-${variant}`, `badge-${size}` )}>
             {children}
-        </div>
+        </span>
     )
 }
